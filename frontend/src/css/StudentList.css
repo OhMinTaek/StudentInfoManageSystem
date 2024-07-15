@@ -1,0 +1,35 @@
+.student-list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.student-list h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.student-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.student-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.student-list li:hover {
+    background-color: #f1f1f1;
+}
+
+.student-list p {
+    color: #888;
+}
